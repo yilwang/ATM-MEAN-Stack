@@ -1,0 +1,30 @@
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    margin-top: 1rem; //1 rem == 16px generally
+    margin-right: 0rem; // rem is based on user's font size.
+    margin-left: 0rem;
+    text-align: center; 
+    list-style-position: inside; 
+  }
+
+  #social1, #social2{
+    color: #422769; 
+    border-radius: 6px;
+    margin: 15px; 
+    font-size: 18px;
+    list-style-position: inside;
+    text-align: center; 
+  }
+
+  .copyright{
+    color:#422769; 
+    border-radius: 6px;
+    margin: 15px; 
+    font-size: 18px;
+    text-align: center; 
+    list-style-position: inside; 
+  }
+
+  

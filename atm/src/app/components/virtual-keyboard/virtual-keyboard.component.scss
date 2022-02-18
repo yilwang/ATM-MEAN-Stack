@@ -1,0 +1,40 @@
+@import "../../../assets/scss/colors.scss";
+
+.number-pad {
+  background-color: $purple;
+  color: white;
+  margin: 0.25rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+.submit-button {
+  background-color: $green;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  margin: 0.25rem;
+  border-radius: 10px;
+}
+
+.dark-button {
+  background-color: $purple-dark;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  margin: 0.25rem;
+  border-radius: 10px;
+}
+
+.error {
+  color: $error-orange;
+}
+
+.input-bar {
+  background-color: $input-box-grey;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  color: white;
+}

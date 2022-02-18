@@ -1,0 +1,6 @@
+<ng-template #customTitle>
+    <h1>{{title}}</h1>
+</ng-template>
+<ng-container *ngIf="!title; else customTitle">
+    <h1>Welcome to <span>CFM</span> Bank</h1>
+</ng-container>

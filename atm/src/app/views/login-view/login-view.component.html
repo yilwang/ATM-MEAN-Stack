@@ -1,0 +1,6 @@
+<div style="text-align: center">  
+  <!-- html used double quote for convention -->
+  <app-virtual-keyboard [message]="'Please Enter Your 4-digit Pin'" [(error)]="errorMessage" [min]="4" [max]="4" (submission)="onSubmitClick($event)"></app-virtual-keyboard>
+  <!-- [message] is an attribute binding example. -->
+  
+</div>

@@ -1,0 +1,26 @@
+<div class="row" style="text-align: center">
+  <div class="col-2 welcome-text">
+    <div class="col-3"></div>
+    <br>
+    <br>
+    <p>Hi, {{loginResult?.customer?.first_name}}</p>
+    <p>Choose your service</p>
+  </div>
+  <div class="col-3">
+    <div class="row">
+      <button class="button" (click)="withdrawAmount('20')">$ 20</button>
+      <button class="button" (click)="withdrawAmount('40')">$ 40</button>
+      <button class="button" (click)="withdrawAmount('60')">$ 60</button>
+    </div>
+    <div class="row">
+      <button class="button" (click)="withdrawAmount('80')">$ 80</button>
+      <button class="button" (click)="withdrawAmount('100')">$ 100</button>
+      <button class="button" (click)="withdraw()">Withdrawal</button>
+    </div>
+    <div class="row">
+      <button class="button" (click)="deposit()">Deposit</button>
+      <button class="button" (click)="viewAccountBalance()">Check Balance</button>
+      <button class="button exit-button" (click)="finish()">Exit</button>
+    </div>
+  </div>
+</div>

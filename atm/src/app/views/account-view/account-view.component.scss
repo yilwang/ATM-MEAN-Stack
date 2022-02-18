@@ -1,0 +1,19 @@
+@import "../../../assets/scss/colors.scss";
+
+.button {
+  background-color: $purple-dark;
+  color: white;
+  margin: 0.25rem;
+  width: 7rem;
+  height: 5rem;
+  border-radius: 10px;
+}
+
+.welcome-text {
+  color: white;
+}
+
+.exit-button {
+  background-color: $grey;
+  color: black;
+}

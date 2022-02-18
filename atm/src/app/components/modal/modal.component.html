@@ -1,0 +1,27 @@
+<ng-container *ngIf="title">
+  <div class="modal-header">
+    <h4 class="modal-title">{{title}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="message">
+  <div class="modal-body">
+    <p>{{message}}</p>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="showKeyboard">
+    <app-virtual-keyboard [showKeyboardSubmit]="showKeyboardSubmit" [max]="keyboardMaxLength" [secretDisplay]="keyboardSecretDisplay" (amount)="onKeyboardClick($event)"  ></app-virtual-keyboard>
+</ng-container>
+
+<div class="modal-footer">
+
+  <button type="button" class="btn btn-primary" (click)="callParentFunction1($event)">{{button1}}</button>
+
+  <ng-container *ngIf="button2">
+    <button type="button" class="btn btn-light" (click)="callParentFunction2($event)">{{button2}}</button>
+  </ng-container>
+</div>

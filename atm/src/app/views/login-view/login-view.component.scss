@@ -1,0 +1,32 @@
+  
+  p{
+    text-align: center;
+    padding-left:60px ;
+    padding-right:60px ;
+  }
+  
+
+  input[type=text], select {
+      padding: 4px;
+      margin: 8px 0;
+      text-align: center; 
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 120%;
+    }
+    
+    fieldset {
+      width: 600px;
+      margin: auto;
+      background-color: blanchedalmond;
+    }
+
+
+    #btn{
+      text-align: center; 
+      list-style-position: inside; 
+    }
+  
+    
